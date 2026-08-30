@@ -1,0 +1,9 @@
+# Runtime dependencies for ONC.
+# The core pipeline runs offline against the bundled fixture; `requests` is only
+# needed for the live evidence-source adapters (DepMap, Open Targets, etc.).
+requests>=2.31
+
+# Development / testing (install with: pip install -r requirements-dev.txt)
+# pytest>=7.4
+# pytest-cov>=4.1
+# ruff>=0.4
