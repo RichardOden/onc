@@ -12,9 +12,9 @@ without touching code.
 from __future__ import annotations
 
 import json
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterator
 
 _DATA = Path(__file__).resolve().parent.parent / "data" / "genes.json"
 

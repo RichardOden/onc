@@ -12,23 +12,23 @@ The public surface is intentionally small:
 """
 
 from onc.genes import GENE_POOL, Gene, pool
-from onc.scoring import WEIGHTS, ScoreCard, score_gene, is_confirmed
 from onc.hashchain import HashChain, Receipt
 from onc.pipeline import Experiment, run_experiment
+from onc.scoring import WEIGHTS, ScoreCard, is_confirmed, score_gene
 
 __version__ = "0.5.0"
 
 __all__ = [
     "GENE_POOL",
-    "Gene",
-    "pool",
     "WEIGHTS",
-    "ScoreCard",
-    "score_gene",
-    "is_confirmed",
+    "Experiment",
+    "Gene",
     "HashChain",
     "Receipt",
-    "Experiment",
-    "run_experiment",
+    "ScoreCard",
     "__version__",
+    "is_confirmed",
+    "pool",
+    "run_experiment",
+    "score_gene",
 ]

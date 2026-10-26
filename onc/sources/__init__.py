@@ -8,6 +8,6 @@ testable) without network access or API keys.
 All adapters implement :class:`~onc.sources.base.EvidenceSource`.
 """
 
-from onc.sources.base import EvidenceSource, OfflineEvidence, SOURCE_NAMES
+from onc.sources.base import SOURCE_NAMES, EvidenceSource, OfflineEvidence
 
-__all__ = ["EvidenceSource", "OfflineEvidence", "SOURCE_NAMES"]
+__all__ = ["SOURCE_NAMES", "EvidenceSource", "OfflineEvidence"]

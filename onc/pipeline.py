@@ -15,7 +15,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from onc.genes import Gene, Pool, pool as _pool
+from onc.genes import Gene, Pool
+from onc.genes import pool as _pool
 from onc.hashchain import HashChain, Receipt, hash_prediction
 from onc.scoring import ScoreCard, score_gene
 from onc.sources.base import OfflineEvidence

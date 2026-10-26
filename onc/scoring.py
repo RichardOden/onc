@@ -12,8 +12,8 @@ the science, so they live in one place and are covered by tests.
 
 from __future__ import annotations
 
+from collections.abc import Mapping
 from dataclasses import dataclass, field
-from typing import Mapping
 
 # Evidence source -> weight. Must sum to 1.0.
 WEIGHTS: dict[str, float] = {

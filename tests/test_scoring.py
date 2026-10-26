@@ -2,7 +2,7 @@
 
 import pytest
 
-from onc.scoring import WEIGHTS, MIN_WEIGHTED, MIN_DEPENDENCY, score_gene, is_confirmed
+from onc.scoring import MIN_DEPENDENCY, MIN_WEIGHTED, WEIGHTS, is_confirmed, score_gene
 
 
 def test_weights_sum_to_one():

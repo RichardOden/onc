@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import json
 from abc import ABC, abstractmethod
+from collections.abc import Mapping
 from pathlib import Path
-from typing import Mapping
 
 # Canonical order of the six evidence sources.
 SOURCE_NAMES = (

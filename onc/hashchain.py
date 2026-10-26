@@ -113,7 +113,7 @@ class HashChain:
         Path(path).write_text(_canonical(payload), encoding="utf-8")
 
     @classmethod
-    def load(cls, path: str | Path) -> "HashChain":
+    def load(cls, path: str | Path) -> HashChain:
         chain = cls()
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         chain._receipts = [Receipt(**r) for r in data]

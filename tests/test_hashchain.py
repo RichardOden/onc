@@ -29,7 +29,7 @@ def test_tampering_breaks_the_chain():
     assert chain.verify()
 
     # Alter a sealed prediction after the fact.
-    list(chain)[0].prediction["predicted_dependency"] = False
+    next(iter(chain)).prediction["predicted_dependency"] = False
     assert not chain.verify()
 
 

@@ -55,4 +55,4 @@ def test_full_pass_scores_every_gene_and_chain_stays_intact():
 def test_offline_evidence_covers_whole_pool():
     ev = OfflineEvidence()
     for g in GENE_POOL:
-        assert set(("dependency", "genetics")).issubset(ev.evidence(g.symbol).keys())
+        assert {"dependency", "genetics"}.issubset(ev.evidence(g.symbol).keys())
