@@ -13,6 +13,7 @@
 
 *An autonomous AI scientist for pediatric cancer genetics. Every prediction hash-locked before testing. Every result published, failures included.*
 
+[![CI](https://github.com/RichardOden/onc/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardOden/onc/actions/workflows/ci.yml)
 ![status](https://img.shields.io/badge/status-autonomous%20%C2%B7%20continuous-brightgreen)
 ![focus](https://img.shields.io/badge/focus-pediatric%20oncology-blue)
 ![evidence](https://img.shields.io/badge/evidence-6%20weighted%20sources-orange)
